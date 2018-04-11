@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Иван Чернушкин](https://up.htmlacademy.ru/adaptive/14/user/392633).
-* Наставник: `Неизвестно`.
+* Наставник: `Николай Маркелов`.
 
 ---
 
