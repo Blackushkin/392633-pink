@@ -6,21 +6,21 @@
   </head>
   <body>
 
-/**   PAGE-HEADER
-   *  WRAPPER
-   *  LOGO-IMAGE
-   *  MENU-BURGER
-   *  NAV
-*/
+<!--  *  PAGE-HEADER
+      *  WRAPPER
+      *  LOGO-IMAGE
+      *  MENU-BURGER
+      *  NAV
+-->
 
     <hyeader class="page-header">
        <div class="header__wrapper">
-         <div class="page-header__logo-image logo-image">
+         <div class="page-header__logo-image  logo-image">
            <a href="#" class="logo-image__list"><img src="#" alt="Логотип сайта Pink" class="logo-image__item" width="75" height="25"></a>
          </div>
-         <span class="page-header__menu-burger menu-berger"></span>
+         <button type="button" class="page-header__menu-burger  menu-berger"></button>
          <nav class="page-header__nav nav">
-           <ul class="nav__list visualli-hidden">
+           <ul class="nav__list  dropdown">
             <li class="nav__item">
               <a href="#" class="item__link">Главная</a>
             </li>
@@ -37,6 +37,38 @@
          </nav>
        </div>
     </hyeader>
+
+
+
+
+    <main class="main-page">
+     <h1 class="visualli-hidden">Главная страница Pink</h1>
+      <section class="main-page__promo  promo">
+       <h2 class="visualli-hidden">Фото раздел с демонстрациями возможностей приложения Pink</h2>
+        <div class="promo__wrapper">
+          <img src="#" alt="Фото сматрфона в руке на экране которого запущенно приложение Pink" width="" height="" class="promo__image">
+        </div>
+        <div class="main-page__link-attachment  link-attachment">
+          <div class="link-attachment__wrapper">
+            <a  href="#" class="link-attachment__button  button"></a>
+            <p class="link-attachment__platform-list">
+              <a href="#" class="platform-item  platform-item--iphone" aria-label="Ссылка на приложение для iphone"></a>
+              <a href="#" class="platform-item  platform-item--android" aria-label="Ссылка на приложение для android"></a>
+              <a href="#" class="platform-item  platform-item--windows" aria-label="Ссылка на приложение для windows"></a>
+            </p>
+            <p class="link-attachment__info">
+              Доступно для iPhone, iPad, Android, Windows Phone, OS X, Window 8
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="main-page__features-block">
+        <h2 class="visualli-hidden">Блок с нашими преимуществами</h2>
+
+      </section>
+    </main>
 
   </body>
 </html>
