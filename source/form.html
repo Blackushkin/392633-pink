@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Пинк</title>
+  </head>
+  <body class="form">
+
+<!--  *  PAGE-HEADER
+      *  WRAPPER
+      *  LOGO-IMAGE
+      *  MENU-BURGER
+      *  NAV
+-->
+
+    <hyeader class="page-header">
+
+       <div class="header__wrapper">
+
+         <div class="page-header__logo-image  logo-image">
+
+           <a href="#" class="logo-image__list">
+            <img src="#" alt="Логотип сайта Pink" class="logo-image__item" width="75" height="22">
+          </a>
+
+         </div>
+
+         <button type="button" class="page-header__menu-burger  menu-berger">           
+         </button>
+
+         <nav class="page-header__nav nav">
+           <ul class="nav__list  dropdown">
+            <li class="nav__item">
+              <a href="#" class="item__link">
+                Главная
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="item__link">
+                Фотографии
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="item__link">
+                Конкурс
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="item__link">
+                HTML Academy
+              </a>
+            </li>
+           </ul>
+         </nav>
+
+       </div>
+    </hyeader>
+
+    <main class="main-form">
+      <section class="main-form__content">
+        <h1 class="visualli-hidden">
+          ?????
+        </h1>
+
+        <div class="main-form__content-wrapper  main-form__wrapper">
+          <p class="introduction__title">
+            Конкурс на самое безбашенное путешествие с Пинк
+          </p>
+        </div>
+
+          <form action="https://echo.htmlacademy.ru" method="post" class="main-form__list  form-list">
+            <div class="main-form__wrapper-fullname  main-form__wrapper">
+              <fieldset class="visualli-hidden">
+                <legend class="visualli-hidden">
+
+                  <label for="surname" class="form-list__label">
+                    Фамилия:            
+                  </label>
+                  <input type="text" class="form-list__input" name="surname" id="surname" placeholder="Укажите фамилию *" autocomplete="on" required>
+
+                  <label for="name" class="form-list__label">
+                    Имя:
+                  </label>
+                  <input type="text" class="form-list__input" id="name" name="name" autocomplete="on" required placeholder="Введите ваше имя *">
+
+                  <label for="patronymic" class="form-list__label">
+                    Отчество:
+                  </label>
+                  <input type="text" class="form-list__input" id="patronymic" name="patronymic" autocomplete="on" placeholder="Ну и отчество тоже">
+
+                </legend>
+              </fieldset>
+            </div>
+
+             <div class="main-form__wrapper-crazy-travel  main-form__wrapper">
+              <p class="crazy-travel__title">
+                Ваши безбашенные достижения в путешествии
+              </p>
+
+               <input type="checkbox" name="photo-shark" id="photo-shark" class="crazy-travel__checkbox" checked>
+               <label for="photo-shark" class="crazy-travel__label">
+                 Сделал селфи с акулой
+               </label>
+
+               <input type="checkbox" name="burnt-on-beach" id="burnt-on-beach" class="crazy-travel__checkbox" checked>
+               <label for="burnt-on-beach" class="crazy-travel__label">
+                 Обгорел на пляже
+               </label>
+
+               <input type="checkbox" name="see-chuck" id="see-chuck" class="crazy-travel__checkbox">
+               <label for="see-chuck" class="crazy-travel__label">
+                 Видел Чака Норриса
+               </label>
+
+               <input type="checkbox" name="buy-souvenir" id="buy-souvenir" class="crazy-travel__checkbox">
+               <label for="buy-souvenir" class="crazy-travel__label">
+                 Накупил сувениров
+               </label>
+
+               <input type="checkbox" name="kept-tower" id="kept-tower" class="crazy-travel__checkbox" checked>
+               <label for="kept-tower" class="crazy-travel__label">
+                 Удержал башню
+               </label>
+
+               <input type="checkbox" name="broke-hotel" id="broke-hotel" class="crazy-travel__checkbox">
+               <label for="broke-hotel" class="crazy-travel__label">
+                 Разгромил отель
+               </label>
+
+             </div>
+
+             <div class="main-form__wrapper-feedback  main-form__wrapper">
+
+               <label for="phone-number" class="feedback__label">
+                 Номер телефона
+               </label>
+               <input type="tel" id="phone-number" name="phone-number" class="feedback__input" placeholder="Номер, пожалуйста">
+
+              <label for="email" class="feedback__label">
+                 адрес почты
+               </label>
+               <input type="email" id="email" name="email" class="feedback__input" placeholder="Введите почту *" required>
+
+             </div>
+
+             <div class="main-form__wrapper-attachment  main-form__wrapper">
+               
+               <p class="attachment__title">
+                 С каким приложением путешествовали?
+               </p>
+
+               <input type="radio" name="attachment" id="pink-ios" class="attachment__input" checked>
+               <label for="pink-ios" class="attachment__label">
+                 Pink для iOS
+               </label>
+
+               <input type="radio" name="attachment" id="pink-android" class="attachment__input">
+               <label for="pink-android" class="attachment__label">
+                 Pink на Android
+               </label>
+
+               <input type="radio" name="attachment" id="pink-windows-phone" class="attachment__input">
+               <label for="pink-windows-phone" class="attachment__label">
+                 Windows Phone
+               </label>
+
+             </div>
+
+             <div class="main-form__wrapper-textarea-travel  main-form__wrapper">
+
+               <p class="textarea-travel__title">
+                 Опишите свои эмоции
+               </p>
+
+               <textarea name="textarea-travel__inner" id="textarea-travel__inner" cols="30" rows="10">
+Можно прям в красках, не стесняясь в выражениях
+               </textarea>
+
+
+             </div>
+
+             <div class="main-form__wrapper-submit  main-form__wrapper">
+
+               <button type="submit" class="main-form__button  button">
+                 Отправить форму
+               </button>
+
+               <p class="submit__required-input">
+                 * — обязательные поля
+               </p>
+
+             </div>
+
+          </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-wrapper">
+
+          <div class="logo-wrap">
+            <img src="#" alt="???" width="147" height="40" class="footer__logo">
+          </div>
+
+          <div class="footer__social">
+            <ul class="social__list">
+
+              <li class="social__item  social__item--twitter">
+                <a href="#" class="social__link">
+                  twitter
+                </a>
+              </li>
+              <li class="social__item  social__item--facebook">
+                <a href="#" class="social__link">
+                  facebook
+                </a>
+              </li>
+              <li class="social__item  social__item--youtube">
+                <a href="#" class="social__link">
+                  YouTube
+                </a>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="footer__copyright">
+            <p class="copyright__made  copyright__made--image">
+              Разработано
+            </p>
+          </div>
+
+        </div>
+    </footer>
+
+    <section class="main-form__popup-correctly  main-form__popup">
+
+      <div class="popup-correctly__wrapper-content">
+
+        <h3 class="correctly__title">
+          Ваша заявка отправлена
+        </h3>
+        <p class="correctly-popup__text">
+         Спасибо за ваше участие, ваша заявка уже поступила к нам. В ближайшее время мы рассмотрим ее и 
+         оповестим вас.
+        </p>
+
+      </div>    
+
+      <div class="correctly__wrapper-button">
+
+        <button type="button" class="correctly-pupup__button  button">
+         ЗАКРЫТЬ ОКНО
+        </button> 
+
+      </div>
+    </section>
+
+    <section class="main-form__popup-error  main-form__popup">
+      <div class="popup-error__wrapper">
+
+        <h3 class="popup-error__title">
+          Что-то пошло не так!
+        </h3>
+        <p class="popup-error__text">
+          Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить
+        </p>
+        <button class="popup-error__button  button">
+          OK
+        </button>
+      </div>
+    </section>
+
+  </body>
+</html>
