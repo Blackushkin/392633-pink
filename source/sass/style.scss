@@ -78,6 +78,12 @@ body {
   box-sizing: border-box;
 }
 
+.page-header__logo-btn-wrap {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .page-header__logo {
 
 }
@@ -95,19 +101,20 @@ body {
 }
 
 .page-header__toggler-wrap {
+  // позиционирование
+  position: relative;
+
   // оформление
   cursor: pointer;
 
   // блочная модель
   width: 50px;
   height: 25px;
+  margin:0;
 }
 
 // Файл menu-toggler
 .menu-toggler {
-  // позиционирование
-  position: relative;
-
   // блочная модель
   display: block;
   width: 50px;
