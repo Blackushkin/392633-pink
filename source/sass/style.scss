@@ -430,9 +430,6 @@ body {
 .feature-block__title-wrapper {
   // блочная модель
   width: 210px;
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
   margin: 0 auto;
 
 }
@@ -440,8 +437,6 @@ body {
 .features-block__title {
   // блочная модель
   display: block;
-  // padding-left: 30px;
-  // padding-right: 30px;
   padding-top: 43px;
 
   // оформление
@@ -459,27 +454,64 @@ body {
 }
 
 .features-block__list {
+  // оформление
+  background-color: $gray;
 
+  // позиционирование
+  position: relative;
 }
 
 .features-list {
   // блочная модель
   margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 300px;
 
   // оформление
   list-style: none;
 }
 
 .features-list__item {
-
+  // блочная модель
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-.features-list__image {
-
+.features-list__item:last-child {
+  // блочная модель
+  // padding-bottom: 300px;
 }
 
-.features-list__image--active {
+// .features-list__image {
+// // блочная модель
+//   display: none;
+// }
 
+.features-list__image--black-white {
+  // блочная модель
+  display: none;
+}
+
+.features-list__image--in-pink-tones {
+  // блочная модель
+  display: none;
+}
+
+.features-list__image--in-pink-tones-with-text {
+  // блочная модель
+  display: flex;
+  width: 150px;
+  height: 275px;
+  margin: 0 auto;
+
+  // позиционирование
+  // order: 1; // не работает???????!!!!!!!!
+  position: absolute;
+  z-index: 100;
 }
 
 .features-block__list {
@@ -489,11 +521,23 @@ body {
 .features-list__title {
   // блочная модель
   margin: 0;
+  padding-top: 40px;
+
+  //типографика
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  text-align: center;
 }
 
 .features-list__text {
   // блочная модель
   margin: 0;
+  padding-top: 5px;
+
+  // типографика
+  line-height: 30px;
+  text-align: center;
 }
 // end Файл features-block
 
