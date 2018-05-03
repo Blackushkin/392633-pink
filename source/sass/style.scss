@@ -1,0 +1,273 @@
+// подключить normalize.css!!!!!!!
+
+
+// base-colors
+$pink: #d22856;
+$green: #2aab6d;
+$white: #ffffff;
+$black: #283645;
+$gray: #f2f2f2;
+
+
+// Файл visually-hidden
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+// fonts
+@font-face {
+  font-family: "Open Sans";
+  src: url("fonts/opensans.woff") format("woff"),
+    url("fonts/opensans.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("fonts/opensansbold.woff") format("woff"),
+    url("fonts/opensansbold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("fonts/opensanslight.woff") format("woff"),
+    url("fonts/opensanslight.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300;
+}
+
+// body
+body {
+  // блочная модель
+  margin: 0 auto;
+
+  // типографика
+  font-size: 14px;
+  line-height: 24px;
+}
+
+//Файл page-header
+.page-header {
+  // блочная модель
+  display: flex;
+  justify-content: center;
+  // min-height: 45px;
+
+  // оформление
+  background-color: $black;
+}
+
+.page-header__wrapper {
+  //блочная модель
+  width: 320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.page-header__logo {
+
+}
+
+.page-header__logo-image {
+
+}
+
+.page-header__menu-toggler {
+
+}
+
+.page-header__page-navigation {
+
+}
+
+.page-header__toggler-wrap {
+  // оформление
+  cursor: pointer;
+
+  // блочная модель
+  width: 50px;
+  height: 25px;
+}
+
+// Файл menu-toggler
+.menu-toggler {
+  // позиционирование
+  position: relative;
+
+  // блочная модель
+  display: block;
+  width: 50px;
+  height: 4px;
+  display: none;
+
+  // оформление
+  outline: none;
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.menu-toggler::before {
+  // блочная модель
+  content: "";
+  width: 50px;
+  height: 4px;
+
+  //позиционирование
+  position: absolute;
+  top: 8px;
+  left: 0;
+
+  // оформление
+  background-color: #ffffff;
+}
+
+.menu-toggler::after {
+  // блочная модель
+  content: "";
+  width: 50px;
+  height: 4px;
+
+  //позиционирование
+  position: absolute;
+  top: 16px;
+  left: 0;
+
+  // оформление
+  background-color: #ffffff;
+}
+
+.menu-toggler--open {
+  // блочная модель
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: $black;
+
+  // позиционирование
+  position: relative;
+  left: 25px;
+  top: -1px;
+}
+
+.menu-toggler--open::before,
+.menu-toggler--open::after {
+  // блочная модель
+  content: "";
+  width: 30px;
+  height: 4px;
+
+  // оформление
+  border-radius: 1px;
+  background-color: $white;
+
+  // позиционирование
+  position: absolute;
+}
+
+.menu-toggler--open::before {
+  // трансформации
+  transform: rotate(45deg);
+  transform-origin: 9px;
+}
+
+.menu-toggler--open::after {
+  // трансформации
+  transform: rotate(-45deg);
+  transform-origin: 10px;
+}
+
+// Файл page-navigation
+.page-navigation {
+  //оформление
+  background-color: $black;
+
+  // типографика
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.page-navigation__list {
+  // блочная модель
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+
+  // оформление
+  list-style: none;
+
+  // типографика
+  line-height: 32px;
+}
+
+.page-navigation__list--dropdown {
+
+}
+
+.page-navigation__item {
+  // блочная модель
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  min-height: 64px;
+  margin: 0;
+  padding: 0;
+
+  // оформление
+  box-shadow:
+    0 -1px #485461,
+    0 -2px #000000;
+
+  // типографика
+  text-align: center;
+}
+
+.page-navigation__item:last-child {
+  //блочная модель
+  min-height: 62px;
+
+  // оформление
+  border-bottom: 1px solid #000000;
+}
+
+.page-navigation__link {
+  // оформление
+  text-decoration: none;
+  color: $white;
+}
+
+// Файл main-page
+
+.main-page__promo {
+
+}
+
+.main-page__link-attachment {
+
+}
+
+.main-page__features-block {
+
+}
+
