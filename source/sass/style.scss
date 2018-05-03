@@ -298,7 +298,9 @@ body {
 }
 
 .link-attachment__title {
-
+  // блочная модель
+  margin: 0;
+  padding: 0;
 }
 
 .link-attachment__button {
@@ -319,11 +321,15 @@ body {
 
 // Файл platform
 .platform {
-
+  // блочная модель
+  margin: 0;
+  padding: 0;
 }
 
 .platform__link {
-
+  // оформление
+  text-decoration: none;
+  color: white;
 }
 
 .platform__link--iphone {
@@ -341,7 +347,9 @@ body {
 
 
 .link-attachment__info {
-
+  // блочная модель
+  margin: 0;
+  padding: 0;
 }
 // end Файл link-attachment
 
@@ -368,7 +376,12 @@ body {
 }
 
 .features-list {
+  // блочная модель
+  margin: 0;
+  padding: 0;
 
+  // оформление
+  list-style: none;
 }
 
 .features-list__item {
@@ -388,11 +401,15 @@ body {
 }
 
 .features-list__title {
-
+  // блочная модель
+  margin: 0;
+  padding: 0;
 }
 
 .features-list__text {
-
+  // блочная модель
+  margin: 0;
+  padding: 0;
 }
 // end Файл features-block
 
@@ -416,7 +433,9 @@ body {
 }
 
 .researsh__text {
-
+  // блочная модель
+  margin: 0;
+  padding: 0;
 }
 
 .research__link {
@@ -438,7 +457,12 @@ body {
 }
 
 .slider-reviews__list {
+  // блочная модель
+  margin: 0;
+  padding: 0;
 
+  // оформление
+  list-style: none;
 }
 
 .slider-reviews__item {
@@ -462,16 +486,22 @@ body {
 }
 
 .slider-reviews__author-age {
-
+  // блочная модель
+  margin: 0;
+  padding: 0;
 }
 
 
 .slider-reviews__text {
-
+  // блочная модель
+  margin: 0;
+  padding: 0;
 }
 
 .slider-reviews__toggles {
-
+  // блочная модель
+  margin: 0;
+  padding: 0;
 }
 
 .reviews-slider-toggles {
@@ -519,7 +549,9 @@ body {
 }
 
 .bestsellers-slider__toggles {
-
+  // блочная модель
+  margin: 0;
+  padding: 0;
 }
 
 .bestsellers-slider-toggles__toggle--1 {
@@ -551,7 +583,12 @@ body {
 }
 
 .contacts-block__list {
+  // блочная модель
+  margin: 0;
+  padding: 0;
 
+  // оформление
+  list-style: none;
 }
 
 .contacts-block__item {
@@ -559,11 +596,15 @@ body {
 }
 
 .contacts-block__title {
-
+  // блочная модель
+  margin: 0;
+  padding: 0;
 }
 
 .contacts-block__text {
-
+  // блочная модель
+  margin: 0;
+  padding: 0;
 }
 
 .main-page__map {
@@ -607,7 +648,12 @@ body {
 }
 
 .socials__list {
+  // блочная модель
+  margin: 0;
+  padding: 0;
 
+  // оформление
+  list-style: none;
 }
 
 .socials__item {
@@ -639,5 +685,7 @@ body {
 }
 
 .copyright__link {
-
+  // оформление
+  text-decoration: none;
+  color: white;
 }
