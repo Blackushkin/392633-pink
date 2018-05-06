@@ -427,10 +427,18 @@ body {
 
 }
 
+.features-list-img {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+	order: -1;
+}
+
 .feature-block__title-wrapper {
   // блочная модель
   width: 210px;
   margin: 0 auto;
+  background-image: url(/img/bg-triangle-white-footer.svg);
 
 }
 
@@ -454,11 +462,16 @@ body {
 }
 
 .features-block__list {
+  // блочная  модель
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		
   // оформление
   background-color: $gray;
 
   // позиционирование
-  position: relative;
+//  position: relative;
 }
 
 .features-list {
@@ -467,10 +480,10 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  padding-bottom: 300px;
 
   // оформление
   list-style: none;
+	order: -1;
 }
 
 .features-list__item {
@@ -806,4 +819,9 @@ body {
   // оформление
   text-decoration: none;
   color: white;
+}
+
+.features-list-img__image {
+	display: none;
+	margin: 500px; 
 }
