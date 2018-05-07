@@ -560,24 +560,31 @@ body {
 
 
 .main-page__slider-reviews {
-  max-width: 320px;
-  margin: 0 auto;
+
 }
 
 
 // Файл slider-reviews
 
 // Дальше на файлы не разбивал, доделать!!!!!!!
-.slider-reviews {
-  background-color: $white;
+.slider-reviews__wrapper {
+  background-color: $black; //!!!!!!!!!!
+  background-image: url(../img/bg-triangle-white.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
 
-  padding-top: 40px;
+.slider-reviews {
+
 }
 
 .slider-reviews__list {
   // блочная модель
   margin: 0;
   padding: 0;
+  padding-top: 40px;
+  max-width: 320px;
+  margin: 0 auto;
 
   // оформление
   list-style: none;
@@ -621,6 +628,7 @@ body {
   // блочная модель
   margin: 0;
   padding-top: 15px;
+  padding-bottom: 20px;
 
   line-height: 30px;
 }
@@ -628,6 +636,11 @@ body {
 .slider-reviews__toggles {
   // блочная модель
   margin: 0;
+  display: flex;
+
+  position: absolute;
+  left: 46.7%;
+  bottom: 10%;
 }
 
 .slider-toggles {
@@ -635,7 +648,22 @@ body {
 }
 
 .slider-toggles__toggle {
-  border-radius: 100%;
+  background-color: $gray;
+  font-size: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  padding: 0;
+  margin-right: 10px;
+
+
+  box-sizing: border-box;
+  border: 3px solid transparent;
+  background-clip: padding-box;
+}
+
+.reviews-slider-toggles--active {
+  border-color: $black;
 }
 
 .reviews-slider-toggles {
@@ -655,7 +683,13 @@ body {
 }
 
 .main-page__bestsellers-slider {
+  background-color: $gray;
+}
 
+.bestseller-slider__wrapper {
+  background-image: url(../img/bg-triangle-white.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
 }
 
 .bestsellers-slider {
