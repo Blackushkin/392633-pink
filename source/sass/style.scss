@@ -453,6 +453,9 @@ body {
 
 .features-block__title:nth-of-type(2) {
   padding-top: 27px;
+  margin-bottom: -3.5%;
+
+  z-index: 100;
 }
 
 .features-block__list {
@@ -471,12 +474,12 @@ body {
   background-color: $gray;
   background-image: url(../img/bg-triangle-white.svg);
   background-repeat: no-repeat;
-  background-size: 127% auto;
+  background-size: 100% auto;
   background-position: 0 0;
 }
 
 .features-list {
-  padding-top: 95px;
+  padding-top: 6.7%;
   max-width: 320px;
   margin: 0 auto;
 }
@@ -568,10 +571,9 @@ body {
 
 // Дальше на файлы не разбивал, доделать!!!!!!!
 .slider-reviews__wrapper {
-  background-color: $black; //!!!!!!!!!!
-  background-image: url(../img/bg-triangle-white.svg);
-  background-position: 0 0;
-  background-repeat: no-repeat;
+  background-color: $white;
+
+    position: relative;
 }
 
 .slider-reviews {
@@ -588,8 +590,6 @@ body {
 
   // оформление
   list-style: none;
-
-  position: relative;
 }
 
 .slider-reviews__item {
@@ -628,7 +628,7 @@ body {
   // блочная модель
   margin: 0;
   padding-top: 15px;
-  padding-bottom: 20px;
+  padding-bottom: 0.5%;
 
   line-height: 30px;
 }
@@ -639,8 +639,8 @@ body {
   display: flex;
 
   position: absolute;
-  left: 46.7%;
-  bottom: 10%;
+  left: 48.2%;
+  bottom: -2.8%;
 }
 
 .slider-toggles {
@@ -650,11 +650,12 @@ body {
 .slider-toggles__toggle {
   background-color: $gray;
   font-size: 0;
+
   width: 12px;
   height: 12px;
   border-radius: 50%;
   padding: 0;
-  margin-right: 10px;
+  margin-right: 12px;
 
 
   box-sizing: border-box;
@@ -690,6 +691,7 @@ body {
   background-image: url(../img/bg-triangle-white.svg);
   background-position: 0 0;
   background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 .bestsellers-slider {
