@@ -130,7 +130,8 @@
       </section>
       <section class="main-page__slider-reviews  slider-reviews">
         <h2 class="slider-reviews__heading  visually-hidden">Отзывы наших клиентов</h2>
-          <ul class="slider-reviews__list">
+          <div class="slider-reviews__wrapper">
+            <ul class="slider-reviews__list">
             <li class="slider-reviews__item  slider-reviews__item--slide-1">
               <b class="slider-reviews__author-name">Николай Петров</b>
               <p class="slider-reviews__author-age">25 лет, водитель трамвая</p>
@@ -148,14 +149,16 @@
             </li>
           </ul>
             <p class="slider-reviews__toggles  reviews-slider-toggles  slider-toggles">
-              <button class="reviews-slider-toggles__toggle--1  slider-toggles__toggle" type="button"></button>
+              <button class="reviews-slider-toggles__toggle--1  slider-toggles__toggle  reviews-slider-toggles--active" type="button"></button>
               <button class="reviews-slider-toggles__toggle--2  slider-toggles__toggle" type="button"></button>
               <button class="reviews-slider-toggles__toggle--3  slider-toggles__toggle" type="button"></button>
             </p>
+          </div>
       </section>
       <section class="main-page__bestsellers-slider  bestsellers-slider">
         <h2 class="bestsellers-slider__heading  visually-hidden">Самые популярные тарифы</h2>
-          <table class="bestsellers-slider__table">
+          <div class="bestseller-slider__wrapper">
+            <table class="bestsellers-slider__table">
             <tr class="bestsellers-slider__title-tr">
               <th class="bestsellers-slider__title-th"></th>
               <th class="bestsellers-slider__title-th">база<span class="bestsellers-slider__title-price">1,99 USD</span></th>
@@ -186,6 +189,7 @@
             <button class="bestsellers-slider-toggles__toggle--2  slider-toggles__toggle" type="button"></button>
             <button class="bestsellers-slider-toggles__toggle--3  slider-toggles__toggle" type="button"></button>
           </p>
+        </div>
       </section>
       <section class="main-page__contacts  contacts-block">
         <h2 class="contacts-block__heading  visually-hidden">Блок с контактной информацией</h2>
