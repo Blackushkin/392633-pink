@@ -1,18 +1,14 @@
-// Файл button
 .button {
-  // блочная модель
+
   display: block;
   padding-top: 12px;
   padding-bottom: 12px;
   width: 280px;
   box-sizing: border-box;
 
-  // оформление
   border: 3px solid $white;
   border-radius: 60px;
 
-  // типографика
   text-align: center;
   line-height: 25px;
 }
-// end Файл button

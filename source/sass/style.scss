@@ -1,61 +1,7 @@
-// base-colors
-$pink: #d22856;
-$green: #2aab6d;
-$white: #ffffff;
-$black: #283645;
-$gray: #f2f2f2;
-
-
-// Файл visually-hidden
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
-// fonts
-@font-face {
-  font-family: "Open Sans", Arial, sans-serif;
-  src: url("fonts/opensans.woff") format("woff"),
-    url("fonts/opensans.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Open Sans", Arial, sans-serif;
-  src: url("fonts/opensansbold.woff") format("woff"),
-    url("fonts/opensansbold.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "Open Sans", Arial, sans-serif;
-  src: url("fonts/opensanslight.woff") format("woff"),
-    url("fonts/opensanslight.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 300;
-}
-
-// body
-body {
-  // блочная модель
-  margin: 0 auto;
-
-  // типографика
-  font-family: "Open Sans", Arial, sans-serif;
-  font-size: 14px;
-  line-height: 24px;
-}
-
+@import "blocks/base-colors"
+@import "blocks/body"
+@import "blocks/fonts"
+@import "blocks/visually-hidden";
 @import "blocks/page-header";
 @import "blocks/menu-toggler";
 @import "blocks/page-navigation";

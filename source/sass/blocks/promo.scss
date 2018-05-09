@@ -1,46 +1,35 @@
-
-
-// Файл promo
 .promo {
   background-color: $black;
 }
 
 .promo__wrapper {
-  // блочная модель
   max-width: 320px;
   margin: 0 auto;
   width: 100%;
   height: 395px;
 
-  // оформление
   background-color: $black;
   background-image: url(../img/bg-back-mobile@1x.jpg);
   background-repeat: no-repeat;
   background-position: 0 -66px;
 
-  // позиционирование
   position: relative;
 }
 
 .promo__image {
-  // блочная модель
   width: 258px;
   height: 287px;
 
-  // позиционирование
   position: absolute;
   bottom: 0%;
 }
 
 .promo__link-attachment {
-  // оформление
   background-color: $black;
 
-  // блочная модель
   padding-top: 28px;
   padding-left: 45px;
   padding-right: 45px;
   max-width: 320px;
   margin: 0 auto;
 }
-// end Файл promo

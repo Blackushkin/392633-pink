@@ -1,16 +1,11 @@
-//Файл page-header
 .page-header {
-  // блочная модель
   display: flex;
   justify-content: center;
-  // min-height: 45px;
 
-  // оформление
   background-color: $black;
 }
 
 .page-header__wrapper {
-  //блочная модель
   max-width: 320px;
   padding-left: 20px;
   padding-right: 20px;
@@ -41,13 +36,10 @@
 }
 
 .page-header__toggler-wrap {
-  // позиционирование
   position: relative;
 
-  // оформление
   cursor: pointer;
 
-  // блочная модель
   width: 50px;
   height: 25px;
   margin:0;
