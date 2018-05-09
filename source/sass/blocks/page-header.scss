@@ -1,0 +1,54 @@
+//Файл page-header
+.page-header {
+  // блочная модель
+  display: flex;
+  justify-content: center;
+  // min-height: 45px;
+
+  // оформление
+  background-color: $black;
+}
+
+.page-header__wrapper {
+  //блочная модель
+  max-width: 320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.page-header__logo-btn-wrap {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-header__logo {
+
+}
+
+.page-header__logo-image {
+
+}
+
+.page-header__menu-toggler {
+
+}
+
+.page-header__page-navigation {
+
+}
+
+.page-header__toggler-wrap {
+  // позиционирование
+  position: relative;
+
+  // оформление
+  cursor: pointer;
+
+  // блочная модель
+  width: 50px;
+  height: 25px;
+  margin:0;
+}

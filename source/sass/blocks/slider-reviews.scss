@@ -1,0 +1,93 @@
+// Файл slider-reviews
+.slider-reviews {
+
+}
+
+.slider-reviews__wrapper {
+  background-color: $white;
+
+    position: relative;
+}
+
+.slider-reviews__list {
+  // блочная модель
+  margin: 0;
+  padding: 0;
+  padding-top: 40px;
+  max-width: 320px;
+  margin: 0 auto;
+
+  // оформление
+  list-style: none;
+}
+
+.slider-reviews__item {
+  text-align: center;
+
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.slider-reviews__item--slide-1 {
+
+}
+
+.slider-reviews__item--slide-2 {
+
+}
+
+.slider-reviews__item--slide-3 {
+
+}
+
+.slider-reviews__author-name {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.slider-reviews__author-age {
+  // блочная модель
+  margin: 0;
+  display: none;
+}
+
+
+.slider-reviews__text {
+  // блочная модель
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 0.5%;
+
+  line-height: 30px;
+}
+
+.slider-reviews__toggles {
+  // блочная модель
+  margin: 0;
+  display: flex;
+
+  position: absolute;
+  left: 48.2%;
+  bottom: -2.8%;
+}
+
+.slider-reviews-toggles--active {
+  border-color: $black;
+}
+
+.slider-reviews-toggles {
+
+}
+
+.slider-reviews-toggles__toggle--1 {
+
+}
+
+.slider-reviews-toggles__toggle--2 {
+
+}
+
+.slider-reviews-toggles__toggle--3 {
+
+}

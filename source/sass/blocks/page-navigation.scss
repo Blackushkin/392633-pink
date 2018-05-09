@@ -1,0 +1,64 @@
+// Файл page-navigation
+.page-navigation {
+  //оформление
+  background-color: $black;
+
+  // типографика
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.page-navigation__list {
+  // блочная модель
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  // оформление
+  list-style: none;
+
+  // типографика
+  line-height: 32px;
+}
+
+.page-navigation__list--dropdown {
+
+}
+
+.page-navigation__item {
+  // блочная модель
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  min-height: 64px;
+  margin: 0;
+  padding: 0;
+
+  // оформление
+  box-shadow:
+    0 -1px #485461,
+    0 -2px #000000;
+
+  // типографика
+  text-align: center;
+}
+
+.page-navigation__item:last-child {
+  //блочная модель
+  min-height: 62px;
+
+  // оформление
+  border-bottom: 1px solid #000000;
+}
+
+.page-navigation__link {
+  // оформление
+  text-decoration: none;
+  color: $white;
+}

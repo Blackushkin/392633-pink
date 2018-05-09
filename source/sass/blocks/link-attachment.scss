@@ -1,0 +1,47 @@
+.link-attachment__platform {
+  //блочная модель
+    padding: 37px;
+    padding-bottom: 0;
+}
+
+// Файл link-attachment
+.link-attachment {
+  //блочная модель
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.link-attachment__title {
+  // блочная модель
+  margin: 0;
+  padding: 0;
+
+  display: none;
+}
+
+.link-attachment__button {
+  // оформление
+  text-decoration: none;
+  color: $white;
+
+  // типографика
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.link-attachment__info {
+  // блочная модель
+  margin: 0;
+  padding-top: 14px;
+  padding-bottom: 28px;
+  padding-right: 25px;
+  padding-left: 25px;
+
+  // типографика
+  line-height: 24px;
+  color: $white;
+  text-align: center;
+ }
+// end Файл link-attachment

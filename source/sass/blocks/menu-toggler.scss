@@ -1,0 +1,84 @@
+// Файл menu-toggler
+.menu-toggler {
+  // блочная модель
+  display: block;
+  width: 50px;
+  height: 4px;
+  display: none;
+
+  // оформление
+  outline: none;
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.menu-toggler::before {
+  // блочная модель
+  content: "";
+  width: 50px;
+  height: 4px;
+
+  //позиционирование
+  position: absolute;
+  top: 8px;
+  left: 0;
+
+  // оформление
+  background-color: #ffffff;
+}
+
+.menu-toggler::after {
+  // блочная модель
+  content: "";
+  width: 50px;
+  height: 4px;
+
+  //позиционирование
+  position: absolute;
+  top: 16px;
+  left: 0;
+
+  // оформление
+  background-color: #ffffff;
+}
+
+.menu-toggler--open {
+  // блочная модель
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: $black;
+
+  // позиционирование
+  position: relative;
+  left: 25px;
+  top: -1px;
+}
+
+.menu-toggler--open::before,
+.menu-toggler--open::after {
+  // блочная модель
+  content: "";
+  width: 30px;
+  height: 4px;
+
+  // оформление
+  border-radius: 1px;
+  background-color: $white;
+
+  // позиционирование
+  position: absolute;
+}
+
+.menu-toggler--open::before {
+  // трансформации
+  transform: rotate(45deg);
+  transform-origin: 9px;
+}
+
+.menu-toggler--open::after {
+  // трансформации
+  transform: rotate(-45deg);
+  transform-origin: 10px;
+}

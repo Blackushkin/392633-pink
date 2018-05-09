@@ -1,0 +1,29 @@
+// Файл platform
+.platform {
+  // блочная модель
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 240px;
+  height: 60px;
+}
+
+.platform__link {
+  // оформление
+  text-decoration: none;
+  color: white;
+}
+
+.platform__link--iphone {
+  margin-top: -7px;
+}
+
+.platform__link--android {
+
+}
+
+.platform__link--windows {
+
+}
+// end Файл platform
