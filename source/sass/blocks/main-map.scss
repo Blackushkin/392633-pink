@@ -1,11 +1,14 @@
 .main-map {
-
+  background-color: $gray;
 }
 
 .main-map__wrapper {
+  margin: 0 auto;
+  width: 320px;
+  height: 200px;
 
-}
-
-.main-map__image {
-
+  background-image: url(../img/bg-triangle-white-footer.svg), url( ../img/bg-map-mobile@1x.png);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% auto, 100% auto;
+  background-position: 0 0, 0 0;
 }
