@@ -1,12 +1,15 @@
 .bestsellers-slider {
+  max-height: 250px;
 
-}
-
-.bestseller-slider__wrapper {
   background-image: url(../img/bg-triangle-white.svg);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 100% auto;
+}
+
+.bestseller-slider__wrapper {
+  margin: 0 auto;
+  width: 320px;
 }
 
 .bestsellers-slider__table {
