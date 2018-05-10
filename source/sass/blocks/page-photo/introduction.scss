@@ -1,0 +1,24 @@
+.introduction {
+  background-color: $black;
+}
+
+.introduction__wrapper {
+  width: 320px;
+  height: 170px;
+  margin: 0 auto;
+
+  background-image: url(../img/bg-back-mobile@1x.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 -66px;
+}
+
+.introduction__title {
+  margin: 0;
+  padding-top: 31px;
+
+  font-size: 24px;
+  font-weight: light;
+  line-height: 28px;
+  color: $white;
+  text-align: center;
+}
