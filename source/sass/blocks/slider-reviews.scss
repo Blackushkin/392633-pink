@@ -5,7 +5,9 @@
 .slider-reviews__wrapper {
   background-color: $white;
 
-    position: relative;
+  position: relative;
+
+  padding-bottom: 50px;
 }
 
 .slider-reviews__list {
@@ -21,8 +23,8 @@
 .slider-reviews__item {
   text-align: center;
 
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .slider-reviews__item--slide-1 {
@@ -30,11 +32,11 @@
 }
 
 .slider-reviews__item--slide-2 {
-
+  display: none;
 }
 
 .slider-reviews__item--slide-3 {
-
+  display: none;
 }
 
 .slider-reviews__author-name {
@@ -52,8 +54,7 @@
 .slider-reviews__text {
   margin: 0;
   padding-top: 15px;
-  padding-bottom: 0.5%;
-
+  padding-bottom: 35px;
   line-height: 30px;
 }
 
@@ -63,19 +64,21 @@
 
   position: absolute;
   left: 48.2%;
-  bottom: -2.8%;
+  bottom: 11.5%;
 }
 
 .slider-reviews-toggles--active {
-  border-color: $black;
+  border-radius: 50%;
+  border: 2px solid  $black;
 }
 
 .slider-reviews-toggles {
 
 }
 
-.slider-reviews-toggles__toggle--1 {
-
+.slider-reviews-toggles__toggle--1 { // не показывает рамку, разобраться!!!
+  border-radius: 50%;
+  border: 2px solid  $black;
 }
 
 .slider-reviews-toggles__toggle--2 {
