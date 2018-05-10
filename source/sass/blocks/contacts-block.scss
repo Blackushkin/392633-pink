@@ -1,17 +1,27 @@
 .contacts-block {
-
+  background-color: $white;
 }
 
 .contacts-block__wrapper {
-
+  margin: 0 auto;
+  width: 320px;
+  padding-top: 50px;
+  padding-bottom: 25px;
 }
 
 .contacts-block__header {
+  margin: 0;
+  padding-bottom: 10px;
 
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 200;
+  text-align: center;
 }
 
 .contacts-block__list {
   margin: 0;
+  padding: 0;
 
   list-style: none;
 }
@@ -22,8 +32,21 @@
 
 .contacts-block__title {
   margin: 0;
+  padding-top: 25px;
+
+  font-size: 18px;
+  line-height: 18px; // возможно придется подправить
+  font-weight: bold;
+  text-align: center;
 }
 
 .contacts-block__text {
   margin: 0;
+  padding-top: 10px;
+
+  color: $pink;
+  font-size: 24px;
+  font-weight: light;
+  line-height: 24px; // возможно придется подправить
+  text-align: center;
 }
