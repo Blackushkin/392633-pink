@@ -1,0 +1,41 @@
+.filters {
+  background-color: $gray;
+}
+
+.filters__wrapper {
+  margin: 0 auto;
+  width: 320px;
+
+  padding-top: 32px;
+  padding-left: 50px;
+  padding-right: 60px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter__tool {
+  width: 48px;
+  height: 48px;
+
+
+  border: none;
+  background-color: $gray;
+  cursor: pointer;
+  outline: none;
+}
+
+.filter__tool--crop {
+
+}
+
+.filter__tool--fill {
+
+}
+
+.filter__tool--contrast {
+
+}
