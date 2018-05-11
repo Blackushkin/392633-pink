@@ -1,0 +1,100 @@
+.full-width-image {
+  width: 320px;
+  margin: 0 auto;
+
+  position: relative;
+}
+
+.full-width-image__image {
+  width: 100%;
+}
+
+.full-width-image__text-absolute {
+  margin: 0;
+
+  position: absolute;
+  top: 0;
+  right: 20px;
+
+  display: block;
+  width: 140px;
+  height: 36px;
+
+  background-color: $pink;
+
+  line-height: 36px;
+  text-align: center;
+  color: $white;
+  font-size: 12.5px;
+  font-weight: 700;
+}
+
+.full-width-image__wrapper {
+  background-color: $gray;
+
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 23px;
+  padding-left: 19px;
+
+  margin: 0 auto;
+  margin-top: -7px;
+  width: 280px;
+
+  box-sizing: border-box;
+}
+
+.full-width-image___author {
+  margin: 0;
+
+  color: $black;
+
+  font-size: 14px;
+}
+
+.full-width-image__name {
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.full-width-image__time {
+  font-weight: 300;
+
+  color: rgba(39,54,69,0.5);
+}
+
+.full-width-image__comment {
+  margin: 0;
+
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.full-width-image__like {
+  margin: 0;
+  margin-top: 14px;
+
+  padding-left: 30px;
+
+  position: relative;
+
+  line-height: 16px;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: $pink;
+}
+
+.full-width-image__like::before {
+  content: "";
+
+  position: absolute;
+  top: 1.5px;
+  left: -1px;
+
+  width: 13px;
+  height: 12px;
+  background-image: url(../img/icon-heart.svg);
+  background-repeat: no-repeate;
+  background-position: 0 0;
+}
