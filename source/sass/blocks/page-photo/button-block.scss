@@ -1,5 +1,15 @@
 .button-block {
+  background-color: $gray;
+}
 
+.button-block__wrapper {
+  margin: 0 auto;
+  width: 320px;
+
+  padding-top: 29px;
+  padding-right: 20px;
+  padding-bottom: 42px;
+  padding-left: 20px;
 }
 
 .button-block__link {
