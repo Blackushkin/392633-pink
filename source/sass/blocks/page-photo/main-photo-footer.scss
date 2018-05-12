@@ -1,9 +1,22 @@
 .main-photo-footer {
-
+  background-color: $white;
 }
 
 .main-photo-footer__wrapper {
+  margin: 0 auto;
+  width: 320px;
 
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+
+  box-sizing: border-box;
+
+  padding-top: 40px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
 }
 
 .main-photo-footer__logo {
