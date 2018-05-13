@@ -59,32 +59,11 @@
 }
 
 .slider-reviews__toggles {
-  margin: 0;
-  display: flex;
-
   position: absolute;
   left: 48.2%;
   bottom: 11.5%;
 }
 
-.slider-reviews-toggles--active {
-  border-radius: 50%;
-  border: 2px solid  $black;
-}
-
-.slider-reviews-toggles {
-
-}
-
-.slider-reviews-toggles__toggle--1 { // не показывает рамку, разобраться!!!
-  border-radius: 50%;
-  border: 2px solid  $black;
-}
-
-.slider-reviews-toggles__toggle--2 {
-
-}
-
-.slider-reviews-toggles__toggle--3 {
-
+.slider-reviews .slider-toggles__toggle--active{
+  background-color: $white;
 }
