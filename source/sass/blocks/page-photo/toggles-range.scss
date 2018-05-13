@@ -1,0 +1,46 @@
+.toggles-range {
+
+}
+
+.togles-range__wrapper {
+  margin: 0 auto;
+  width: 320px;
+  height: 75px;
+
+  border-bottom: 1px solid $dark-gray;
+
+  padding-left: 40px;
+  padding-right: 40px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+}
+
+.toggles-range__tool {
+  display: block;
+  width: 100%;
+  height: 2px;
+
+  background-color: $dark-gray;
+  border: none;
+  outline: none;
+
+  position: relative;
+}
+
+.toggles-range__tool::before {
+  content: "";
+
+  width: 9px;
+  height: 9px;
+
+  border: 2px solid $pink;
+  border-radius: 50%;
+  background-color: $gray;
+
+  position: absolute;
+  top: -5px;
+  right: 35px;
+}
