@@ -1,9 +1,29 @@
 .form-content {
+  background-color: $white;
+}
 
+.form-content__wrapper {
+  margin: 0 auto;
+  width: 320px;
+
+  padding-top: 32px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  padding-left: 15px;
+
+  text-align: center;
+
+  box-sizing: border-box;
 }
 
 .form-content__heading {
+  line-height: 30px;
+  font-weight: 400;
+  color: $black;
+}
 
+.form-content__heading-continuation {
+  display: none;
 }
 
 .form-content__fullname {
