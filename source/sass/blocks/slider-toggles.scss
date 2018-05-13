@@ -1,9 +1,10 @@
 .slider-toggles {
-
+  margin: 0;
+  display: flex;
 }
 
 .slider-toggles__toggle {
-  background-color: $gray;
+  background-color: $dark-gray;
   font-size: 0;
 
   width: 12px;
@@ -16,8 +17,9 @@
   border: 3px solid transparent;
   background-clip: padding-box;
   outline: none;
+  cursor: pointer;
 }
 
 .slider-toggles__toggle--active {
-  border:2px solid $dark-gray;
+  border:2px solid $black;
 }
