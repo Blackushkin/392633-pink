@@ -33,18 +33,10 @@
 }
 
 .bestsellers-slider__toggles {
-  // блочная модель
   margin: 0;
 }
 
-.bestsellers-slider-toggles__toggle--1 {
-
+.bestsellers-slider .slider-toggles__toggle--active {
+  background-color: $gray
 }
 
-.bestsellers-slider-toggles__toggle--2 {
-
-}
-
-.bestsellers-slider-toggles__toggle--3 {
-
-}
