@@ -91,6 +91,6 @@
   cursor: pointer;
 }
 
-.crazy-travel__checkbox[type=checkbox]:checked .crazy-travel__label::after {
+.crazy-travel__checkbox:checked + .crazy-travel__label::after {
   display: block;
 }
