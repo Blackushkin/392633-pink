@@ -1,0 +1,44 @@
+.submit-box {
+  background-color: $white;
+}
+
+.submit-box__wrapper {
+  margin: 0 auto;
+  width: 320px;
+
+  box-sizing: border-box;
+
+  padding-top: 18px;
+  padding-right: 18px;
+  padding-bottom: 20px;
+  padding-left: 18px;
+}
+
+.submit-box__button {
+
+}
+
+.submit-box__required-input {
+  margin: 0;
+  margin-top: 34px;
+
+  text-align: center;
+  line-height: 25px;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 10px;
+
+  position: relative;
+}
+
+.submit-box__required-input::before {
+  content: "*";
+
+  color: $pink;
+
+
+  position: absolute;
+  top: 1px;
+  left: 50px;
+}
